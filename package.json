@@ -5,9 +5,8 @@
   "scripts": {
     "test": "npx cucumber-js",
     "test:tag": "npx cucumber-js --tags @sep11",
-    "test:tag:dryrun": "npx cucumber-js --tags @tagName --dry-run",
+    "test:tag:dryrun": "npx cucumber-js --tags @sep11 --dry-run",
     "test:smoke": "npx cucumber-js --tags @smoke",
-    "Mac-open:report": "open reports/cucumber-report.html",
     "Windows-open:report": "start reports/cucumber-report.html"
   },
   "keywords": [],
@@ -21,6 +20,7 @@
   },
   "dependencies": {
     "@cucumber/cucumber": "^13.3.0",
-    "cucumber-html-reporter": "^5.0.2"
+    "cucumber-html-reporter": "^5.0.2",
+    "playwright": "^1.65.1"
   }
 }
