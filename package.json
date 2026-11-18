@@ -4,13 +4,13 @@
   "main": "index.js",
   "scripts": {
     "test": "npx cucumber-js",
-    "test:tag": "npx cucumber-js --tags @sep07",
+    "test:tag": "npx cucumber-js --tags @sep08",
     "test:tag:dryrun": "npx cucumber-js --tags @sep11 --dry-run",
     "test:smoke": "npx cucumber-js --tags @smoke",
     "Windows-open:report": "start reports/cucumber-report.html"
   },
   "keywords": [],
-  "author": "",
+  "author": "haliderdur",
   "license": "ISC",
   "description": "",
   "type": "module",

@@ -10,9 +10,6 @@ Feature: View Product Landing Page
 
     #* AC4: The system displays "Need help? Contact us at enrollment@cydeo.com" in the footer on the right.
 
-
-    #TODO: Create scenarios that cover all the acceptance criteria
-
     Background:
         Given user is on the enrollment page
 
