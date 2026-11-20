@@ -43,6 +43,10 @@ export class StartApplicationPage extends BasePage {
       "//mat-label[text()='How did you hear about us?']",
     );
 
+    this.howDidYouHearAboutUsDropDownOptionsList = page.locator(
+      "//div[@id='mat-select-0-panel']//mat-option",
+    );
+
     this.emailOptionFromDropDown = page.locator(
       "//mat-option/span[contains(text(), 'Email')]",
     );
