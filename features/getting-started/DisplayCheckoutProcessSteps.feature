@@ -19,7 +19,7 @@ Feature: Display the steps of the checkout process
 
     @sep08-2
     Scenario: The system should highlight "Start Application" in blue
-        Then The user should see Start Application step in blue
+        Then the start application step stepper circle is blue
 
     @sep08-3
     Scenario: The system should display "Payment Plan" and "Review" in grey

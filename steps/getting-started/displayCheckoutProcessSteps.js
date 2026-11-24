@@ -25,7 +25,7 @@ Then(
   },
 );
 
-Then("The user should see Start Application step in blue", async function () {
+Then("the start application step stepper circle is blue", async function () {
   await expect(startApplicationPage.step1).toHaveCSS(
     "background-color",
     "rgb(1, 201, 255)",
