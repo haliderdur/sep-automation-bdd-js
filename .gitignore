@@ -4,3 +4,4 @@ node_modules/
 /playwright/.cache/
 settings.json
 EachUserStory-GitSteps.txt
+.github/
