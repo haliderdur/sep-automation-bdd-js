@@ -3,5 +3,5 @@ node_modules/
 /blob-report/
 /playwright/.cache/
 settings.json
-EachUserStory-GitSteps.txt
+EachUserStory-GitSteps.txt 
 .github/
