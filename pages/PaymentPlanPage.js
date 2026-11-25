@@ -21,9 +21,7 @@ export class PaymentPlanPage extends BasePage {
       "//span[@class='discount-price']/span"
     );
 
-    this.upfrontPaymentFrame = page.locator(
-      "(//mat-expansion-panel-header[@role='button'])[1]"
-    );
+    this.upfrontPaymentFrame = page.getByRole("button", { name: /Upfront/i });
 
     this.greenBadgeUpfrontDiscount = page.locator(
       "//span[@class='chip-content']"
@@ -81,9 +79,7 @@ export class PaymentPlanPage extends BasePage {
       "//span[@class='payment-type'][contains(text(),'Installments')]"
     );
 
-    this.installmentsPaymentFrame = page.locator(
-      "(//mat-expansion-panel-header[@role='button'])[2]"
-    );
+    this.installmentsPaymentFrame = page.getByRole("button", { name: /Installments/i });
 
     this.installmentsPaymentAmount = page.locator(
       "//span[@class='discount-price ng-star-inserted']"
@@ -141,11 +137,9 @@ export class PaymentPlanPage extends BasePage {
       "(//button[contains(text(), 'I have a promo code')])[2]"
     );
 
-    this.inactiveNextButton = page.locator("//button[text()='Next']");
+    this.inactiveNextButton = page.getByRole("button", { name: "Next", exact: true });
 
-    this.activeNextButton = page.locator(
-      "//button[@class = 'next-button' and text()='Next']"
-    );
+    this.activeNextButton = page.getByRole("button", { name: "Next", exact: true });
 
     this.backButton = page.locator("//span[@class='back-button']");
 
