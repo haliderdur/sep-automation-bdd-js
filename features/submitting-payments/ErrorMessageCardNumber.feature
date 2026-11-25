@@ -8,4 +8,19 @@ Feature: Error message for the invalid card number
     #*              Your card number is invalid.
 
 
-    #TODO: Create scenarios that cover all the acceptance criteria
+    Background:
+        Given user is on the enrollment page
+        And user has completed start application step
+        When user selects the "Upfront" payment plan
+        And clicks the next button on payment plan page
+
+
+    @sep25-1
+    Scenario Outline: An invalid card number displays the corresponding immediate error
+        When the user enters "<card_number>" in the card number field
+        Then the card number error message should be "<error_message>"
+
+        Examples:
+            | card_number | error_message                    |
+            | 4242        | Your card number is incomplete.  |
+            | 1234567890123456 | Your card number is invalid. |
