@@ -1,0 +1,33 @@
+1. Create a Feature Branch
+	Create a new branch for your feature
+	Use the naming convention: feature/tag-feature-name
+
+2. Switch to the Feature Branch
+	In VS Code, checkout the newly created feature branch
+
+3. Update Your Feature Branch
+	Pull the latest updates from the develop branch into your feature branch
+	This ensures you're working with the most recent codebase
+
+4. Develop Your Feature
+	Work on your feature in the designated file(s)
+
+5. Generate Step Definitions
+	Create step definitions for your feature
+
+6. Test Your Feature
+	Run the step definitions to ensure your feature works as expected
+
+7. Push Changes to Remote
+	Commit your changes locally
+	Push the committed changes to the remote feature branch
+
+8. Create a Pull Request
+	On your git platform (e.g., GitHub, GitLab), create a pull request
+	Set the source as your remote feature branch
+	Set the target as the remote develop branch
+
+9. Merge the Feature
+	After review and approval, merge the pull request
+	This integrates your feature into the develop branch
+
