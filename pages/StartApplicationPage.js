@@ -130,6 +130,8 @@ export class StartApplicationPage extends BasePage {
     this.discountedPrice = page.locator("//b[@class='info-primary']");
 
     this.originalPrice = page.locator("//s[contains(.,'$')]");
+
+    this.returnPolicyText = page.getByText(/refund|return/i).first();
   }
 
   /**
