@@ -17,13 +17,19 @@ Feature: View payment plan options in Step 2   #! test only
     #*            <number_of_installments> Installments (first row)
     #*           $ <monthly_price> per month (second row)
     #*            Installment plans should be unique
+    Background:
+        Given user is on the enrollment page
+        And user has completed start application step
 
 
+    @sep17-1
+    Scenario: Only one upfront payment price is displayed
+        Then only one upfront payment option is displayed
+        And the upfront payment option shows the discount price
 
-    #TODO: Create scenarios that cover all the acceptance criteria
 
-
-
-
-
-    
+    @sep17-2
+    Scenario: Installment payment plan options are unique and complete
+        Then the available payment plan count matches the active product prices
+        And each available payment plan has unique text
+        And the installment payment option shows its installment count and monthly price
