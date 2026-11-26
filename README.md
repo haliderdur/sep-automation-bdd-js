@@ -137,6 +137,8 @@ Create a pull request from your remote feature branch to the develop branch.
 Repeat from step #3 until you finish all the user stories. By following these steps, you will be able to set up, work on, and manage your library automation project efficiently. Happy coding!<br>
 
 ## Authors
-Halid Erdur - [haliderdur](https://github.com/haliderdur)
+Halid Erdur  
+[Github](https://github.com/haliderdur)
+[Linkedin](https://www.linkedin.com/in/erdurhalid/)
 
 By following these steps and guidelines, you'll be able to effectively use and contribute to the SEP Automation TDD Framework. Happy testing!
