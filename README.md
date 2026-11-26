@@ -29,7 +29,7 @@ npm install
 
 ### 1. Download the "sep-automation" Project Zip Folder
 1.1 Go to your LMS (CYDEO Learning APP)  
-1.2 Navigate to the "JavaScript and Playwright" course on your LMS  
+1.2 Navigate to the "JavaScript and Playwright" on your LMS  
 1.3 Expand the "Project Implementation" module  
 1.4 Click the "sep-automation" folder and download it
 
@@ -54,7 +54,7 @@ Install the following extensions for a better development experience:
 
 ### 7. Add Environment Variables to User Settings Json File (settings.json) in VS Code
 7.1 Go to your LMS (CYDEO Learning APP).<br>
-7.2 Navigate to the "JavaScript and Playwright" course on your LMS.<br>
+7.2 Navigate to the "JavaScript and Playwright" on your LMS.<br>
 7.3 Expand the "Project Implementation" module.<br>
 7.4 Download the "Environment Variables" text file.<br>
 7.5 Open the Environment Variables.txt file.<br>
@@ -137,6 +137,6 @@ Create a pull request from your remote feature branch to the develop branch.
 Repeat from step #3 until you finish all the user stories. By following these steps, you will be able to set up, work on, and manage your library automation project efficiently. Happy coding!<br>
 
 ## Authors
-Muhtar - [Muhtar](https://github.com/MuhtarMahmut)
+Halid Erdur - [haliderdur](https://github.com/haliderdur)
 
 By following these steps and guidelines, you'll be able to effectively use and contribute to the SEP Automation TDD Framework. Happy testing!
